@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piano Player</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Piano Player</h1>
+        <div class="piano">
+            <div class="white-keys">
+                <div class="key white" data-note="C4"></div>
+                <div class="key white" data-note="D4"></div>
+                <div class="key white" data-note="E4"></div>
+                <div class="key white" data-note="F4"></div>
+                <div class="key white" data-note="G4"></div>
+                <div class="key white" data-note="A4"></div>
+                <div class="key white" data-note="B4"></div>
+                <div class="key white" data-note="C5"></div>
+            </div>
+            <div class="black-keys">
+                <div class="key black" data-note="C#4"></div>
+                <div class="key black" data-note="D#4"></div>
+                <div class="key black empty"></div>
+                <div class="key black" data-note="F#4"></div>
+                <div class="key black" data-note="G#4"></div>
+                <div class="key black" data-note="A#4"></div>
+            </div>
+        </div>
+        <div class="instructions">
+            <p>Click on piano keys to play notes</p>
+            <p>You can also use keyboard keys:</p>
+            <p>White keys: Z, X, C, V, B, N, M, ,</p>
+            <p>Black keys: S, D, G, H, J</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
